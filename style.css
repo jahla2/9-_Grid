@@ -1,25 +1,14 @@
 .container {
   display: grid;
-  grid-template: repeat(3, 100px) / repeat(2,100px);
+  /* row and columns */
+  grid-template: 100px auto 100px / 30fr 70fr;
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  gap: 10px;
   border: 3px solid lightgrey;
-  /* justify-items: center; Default value Streatch */
-  /* align-items: center; Default value Streatch */
-
-  /* Align grid inside a container*/
-  /* justify-content: center;
-  align-content: center; */
   height: 100vh;
 }
 
 .box {
-  /* width: 5rem; */
-  /* height: 5rem; */
   background: gold;
 }
-
-  /* GRID ALIGNMENT ITEMS */
-  
-  /* default aligned top left */
-
-  /* justify-items - :horizontal x */
-  /* align-items - :vertical y */
